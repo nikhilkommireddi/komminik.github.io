@@ -1,60 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasta Delight</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pasta Delight</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Pasta Delight</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home" class="background">
-        <h2>Welcome to Pasta Delight!</h2>
-        <p>Enjoy the best homemade pasta in town.</p>
-        <video controls>
-            <source src="https://www.sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
+  <header>
+    <h1>Pasta Delight</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <div class="menu-item">
-            <img src="https://images.pexels.com/photos/5394519/pexels-photo-5394519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Spaghetti">
-            <h3>Classic Spaghetti</h3>
-            <p>$12.99 - Fresh spaghetti with homemade tomato sauce and basil.</p>
-        </div>
-        <div class="menu-item">
-            <img src="https://images.pexels.com/photos/628776/pexels-photo-628776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Lasagna">
-            <h3>Hearty Lasagna</h3>
-            <p>$15.99 - Layered lasagna with ricotta, beef, and mozzarella cheese.</p>
-        </div>
-    </section>
+  <section id="home" class="background">
+    <h2>Welcome to Pasta Delight!</h2>
+    <p>Enjoy the best homemade pasta in town.</p>
+    <video controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a family-owned business passionate about bringing you authentic, delicious pasta dishes made with love and the finest ingredients.</p>
-    </section>
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/5394519/pexels-photo-5394519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Spaghetti" />
+      <h3>Classic Spaghetti</h3>
+      <p>$12.99 - Fresh spaghetti with homemade tomato sauce and basil.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/628776/pexels-photo-628776.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Lasagna" />
+      <h3>Hearty Lasagna</h3>
+      <p>$15.99 - Layered lasagna with ricotta, beef, and mozzarella cheese.</p>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Phone: 123-456-7890</p>
-        <p>Email: info@pastadelight.com</p>
-    </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a family-owned business passionate about bringing you authentic, delicious pasta dishes made with love and the finest ingredients.</p>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Pasta Delight. All rights reserved.</p>
-    </footer>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 123-456-7890</p>
+    <p>Email: info@pastadelight.com</p>
+    <button onclick="contactAlert()">Contact Us</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pasta Delight. All rights reserved.</p>
+  </footer>
+
+  <button id="topBtn" onclick="scrollToTop()">⬆ Back to Top</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
